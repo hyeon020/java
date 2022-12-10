@@ -27,7 +27,7 @@ public class PhoneManager {
 		Phone[] Array = new Phone[Persons];
 			
 		for(int i = 0; i < Persons; i++) {
-			System.out.print("이름과 전화번호(번호는 연속적으로 입력) >> ");
+			System.out.print("이름과 전화번호(번호는 연속적으로 입력) >> "); //이름과 전화번호 입력
 			Array[i] = new Phone(sc.next(), sc.next());
 		}
 			
