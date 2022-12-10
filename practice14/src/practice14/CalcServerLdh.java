@@ -13,11 +13,11 @@ public class CalcServerLdh {
 		String opcode = st.nextToken();
 		int op2 = Integer.parseInt(st.nextToken());
 		switch(opcode) {
-		    case "+": res = Integer.toString(op1 + op2);
+		    case "+": res = Integer.toString(op1 + op2); //opcode가 +이면
 		        break;
-		    case "-": res = Integer.toString(op1 = op2);
+		    case "-": res = Integer.toString(op1 = op2); //opcode가 -이면
 		        break;
-		    case "*": res = Integer.toString(op1 = op2);
+		    case "*": res = Integer.toString(op1 = op2); //opcode가 *이면
 	            break;
 	        default : res = "error";
 		}
