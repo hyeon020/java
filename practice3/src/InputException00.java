@@ -11,7 +11,7 @@ public class InputException00 {
 			try {
 				n = scanner.nextInt();
 			}
-			catch(InputMismatchException e) {
+			catch(InputMismatchException e) { //예외 발생할 경우
 				System.out.println("정수가 아닙니다. 다시 입력하세요!");
 				scanner.next();
 				i--;
