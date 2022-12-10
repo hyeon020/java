@@ -8,7 +8,7 @@ public class foreachEx00 {
 		}
 		System.out.println("합은 " + sum);
 		
-		String f[] = {"사과", "배", "바나나", "체리", "딸기", "포도" }; /배열 순서 표시
+		String f[] = {"사과", "배", "바나나", "체리", "딸기", "포도" }; //배열 순서 표시
 		for(String s:f)
 			System.out.print(s + " ");
 	}
