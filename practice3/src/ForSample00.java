@@ -5,9 +5,9 @@ public class ForSample00 {
 			sum += i;
 			System.out.print(i);
 			if(i<=9)
-				System.out.print("+");
+				System.out.print("+"); //+출력
 			else {
-				System.out.print("=");
+				System.out.print("="); //=출력
 				System.out.print(sum);
 			}
 		}
