@@ -23,10 +23,10 @@ public class CalcClientLdh {
 					out.flush();
 					break;
 				}
-				out.write(outputMessage + "\n");
+				out.write(outputMessage + "\n"); //위에 계산식을 출력
 				out.flush();
 				String inputMessage = in.readLine();
-				System.out.println("계산 결과: " + inputMessage);
+				System.out.println("계산 결과: " + inputMessage); //계산 결과 출력
 			}
 		}catch(IOException e) {
 		    System.out.println(e.getMessage());
