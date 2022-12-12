@@ -15,7 +15,7 @@ public class VectorEx00 {
 		int max_index = 0;
 		for(int i = 0; i< 9; i++) {
 			if(max < (height.get(i+1) - height.get(i))) {
-			    max = height.get(i+1) - height.get(i);
+			    max = height.get(i+1) - height.get(i); //가장 많이 자란 키 max값
 				max_index = i;
 			}
 		}
