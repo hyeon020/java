@@ -14,8 +14,8 @@ public class PointVectorEx00 {
 	public static void main(String[] args) {
 		Vector<Point> v = new Vector<Point>();
 		
-		v.add(new Point(2,3));
-		v.add(new Point(-5, 20));
+		v.add(new Point(2,3)); //두 점 2,3
+		v.add(new Point(-5, 20)); 
 		v.add(new Point(30, -8));
 		
 		v.remove(1);
