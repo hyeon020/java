@@ -7,7 +7,7 @@ public class VectorEx00 {
 		Vector<Integer> height = new Vector<Integer>();
 		System.out.println("2000~2009년까지 1년 단위로 키(cm)를 입력");
 		System.out.print(">>");
-		for(int i = 0; i < 10; i++) {
+		for(int i = 0; i < 10; i++) { //0부터 9까지
 			height.add(sc.nextInt());
 		}
 		
