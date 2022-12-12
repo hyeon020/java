@@ -2,8 +2,8 @@ package practice7;
 import java.util.Vector;
 
 class Point {
-	private int x, y;
-	public Point(int x, int y) {
+	private int x, y; //정수형 x,y 
+	public Point(int x, int y) { //포인트 x,y
 		this.x = x; this.y =y;
 	}
 	public String toString() {
