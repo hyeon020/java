@@ -25,9 +25,9 @@ public class MyStack00 {
 		GStack00<Point> PointStack = new GStack00<Point>();		
 		PointStack.push(new Point(2, 3));
 		PointStack.push(new Point(-5, 20));
-		PointStack.push(new Point(30, -8));
+		PointStack.push(new Point(30, -8)); 
 		
 		for(int n=0; n<3; n++)
-			System.out.println(PointStack.pop());
+			System.out.println(PointStack.pop()); //포인트스택 pop(삭제)
 	}
 }
