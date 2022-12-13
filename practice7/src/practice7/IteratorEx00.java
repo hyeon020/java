@@ -16,7 +16,7 @@ public class IteratorEx00 {
 		v.add(8, 700);
 		v.add(9, 800);
 		v.add(10, 900);
-		v.add(11, 1000);
+		v.add(11, 1000); //벡터에 수 추가
 		
 		
 		Iterator<Integer> it = v.iterator();
