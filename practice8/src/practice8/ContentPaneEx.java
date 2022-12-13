@@ -12,8 +12,8 @@ public class ContentPaneEx extends JFrame {
 		contentPane.setLayout(new FlowLayout());
 		
 		contentPane.add(new JButton("OK")); //버튼 OK 추가
-		contentPane.add(new JButton("Cancel"));
-		contentPane.add(new JButton("Ignore"));
+		contentPane.add(new JButton("Cancel")); //버튼 Cancel 추가
+		contentPane.add(new JButton("Ignore")); //버튼 Ignore 추가
 		
 		setSize(300, 150);
 		setVisible(true);
