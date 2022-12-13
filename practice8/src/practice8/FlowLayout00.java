@@ -24,7 +24,7 @@ public class FlowLayout00 extends JFrame {
 		contentPane.add(new JButton("버튼12"));
 		contentPane.add(new JButton("버튼13"));
 		contentPane.add(new JButton("버튼14"));
-		contentPane.add(new JButton("버튼15"));
+		contentPane.add(new JButton("버튼15")); //버튼 1부터 15까지 추가
 		
 		
 		
