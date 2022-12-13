@@ -11,8 +11,8 @@ public class BorderLayoutPr00 extends JFrame {
 		contentPane.setLayout(new BorderLayout(50, 5));
 		
 		contentPane.add(new JButton("Center"), BorderLayout.CENTER); //BorderLayout중앙에 배치
-		contentPane.add(new JButton("North"), BorderLayout.NORTH);
-		contentPane.add(new JButton("South"), BorderLayout.SOUTH);
+		contentPane.add(new JButton("North"), BorderLayout.NORTH);  //북쪽에 배치
+		contentPane.add(new JButton("South"), BorderLayout.SOUTH); //남쪽에 배치
 		contentPane.add(new JButton("West"), BorderLayout.WEST);
 		contentPane.add(new JButton("East"), BorderLayout.EAST);
 		
