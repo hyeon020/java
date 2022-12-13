@@ -9,10 +9,10 @@ public class NullContainerPr00 extends JFrame{
 		Container contentPane = getContentPane();
 		contentPane.setLayout(null);
 		
-		for(int i=0; i<20; i++) {
+		for(int i=0; i<20; i++) { //i 0부터 19까지
 			JLabel label = new JLabel(Integer.toString(i));
-			int x = (int)(Math.random()*220) + 30;
-			int y = (int)(Math.random()*220) + 30;
+			int x = (int)(Math.random()*220) + 30; //정수형 x 
+			int y = (int)(Math.random()*220) + 30; //정수형 y
 			label.setLocation(x,y);
 			label.setSize(20, 20);
 			label.setForeground(Color.MAGENTA);
