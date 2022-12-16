@@ -13,7 +13,7 @@ public class LoveJava00 extends JFrame{
 		c.setLayout(new FlowLayout());
 		
 		JLabel la = new JLabel(" Love Java");
-		la.setFont(new Font("Arial", Font.PLAIN, 30));
+		la.setFont(new Font("Arial", Font.PLAIN, 30)); //폰트 크기와 이름 지정
 		la.addKeyListener(new KeyAdapter() {
 			public void keyPressed(KeyEvent e) {	
 				if(e.getKeyChar()=='+') {
